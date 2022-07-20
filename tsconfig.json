@@ -1,6 +1,7 @@
 {
   "exclude": ["./node_modules"],
   "compilerOptions": {
+    "declaration": true,
     "inlineSourceMap": true,
     "module": "ES2020",
     "moduleResolution": "NodeNext",

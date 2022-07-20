@@ -5,7 +5,7 @@
   "type": "module",
   "exports": "./dist/log.js",
   "scripts": {
-    "prepare": "tsc"
+    "postinstall": "tsc"
   },
   "repository": {
     "type": "git",
