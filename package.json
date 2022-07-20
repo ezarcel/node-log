@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-log",
+  "name": "@ezarcel/log",
   "version": "1.0.0",
   "description": "Small function I use in all my projects",
   "type": "module",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ezarcel/nodejs-log.git"
+    "url": "git+https://github.com/ezarcel/node-log.git"
   },
   "keywords": [
     "log",
@@ -20,9 +20,9 @@
   "author": "ezarcel",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/ezarcel/nodejs-log/issues"
+    "url": "https://github.com/ezarcel/node-log/issues"
   },
-  "homepage": "https://github.com/ezarcel/nodejs-log#readme",
+  "homepage": "https://github.com/ezarcel/node-log#readme",
   "dependencies": {
     "chalk": "^5.0.1"
   },
