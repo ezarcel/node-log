@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Small function I use in all my projects",
   "type": "module",
-  "exports": "./dist/log.js",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "postinstall": "tsc"
   },
