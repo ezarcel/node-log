@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-log",
+  "version": "1.0.0",
+  "description": "Small function I use in all my projects",
+  "type": "module",
+  "exports": "./dist/log.js",
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezarcel/nodejs-log.git"
+  },
+  "keywords": [
+    "log",
+    "nodejs",
+    "js",
+    "chalk"
+  ],
+  "author": "ezarcel",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/ezarcel/nodejs-log/issues"
+  },
+  "homepage": "https://github.com/ezarcel/nodejs-log#readme",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "typescript": "^4.7.4"
+  }
+}
