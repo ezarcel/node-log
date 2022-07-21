@@ -6,7 +6,7 @@
   "exports": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "postinstall": "tsc"
+    "prepublishOnly": "tsc"
   },
   "repository": {
     "type": "git",
