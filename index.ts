@@ -1,3 +1,4 @@
+import { padding } from "@ezarcel/tools";
 import chalk from "chalk";
 
 interface ILog {
@@ -20,8 +21,11 @@ export default (scope?: string) =>
           `${Intl.DateTimeFormat(undefined, {
             hour: "2-digit",
             minute: "2-digit",
-            second: "2-digit"
-          }).format(Date.now())} ${emoji} ` +
+            second: "2-digit",
+          }).format(Date.now())} ${padding(emoji, {
+            alignment: "left",
+            length: 2,
+          })} ` +
             (scope ? `[${scope}] ` : "") +
             data.join(" ")
         )
@@ -40,6 +44,6 @@ export default (scope?: string) =>
         process.env.NODE_ENV === "production"
           ? undefined
           : _(emoji || "ℹ", data, chalk.rgb(127, 127, 127)),
-      warn: (...data) => _(emoji || "⚠", data, chalk.yellow)
+      warn: (...data) => _(emoji || "⚠", data, chalk.yellow),
     };
   };
