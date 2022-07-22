@@ -1,6 +1,6 @@
 {
   "name": "@ezarcel/log",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Small function I use in all my projects",
   "type": "module",
   "exports": "./dist/index.js",
